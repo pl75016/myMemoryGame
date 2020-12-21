@@ -1,0 +1,120 @@
+.App {
+    text-align:center;
+    position: relative;
+    background-color: #282C34;
+    height: 100vh;
+
+
+}
+html{
+    background-color: #282C34;
+}
+
+.App-logo{
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-content{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    ;
+}
+.App-header{
+    background-color: #282C34;
+    min-height:  10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+.Button{
+   margin: 0 auto;
+}
+
+.outer-div{
+    padding-top:70px;
+}
+.Board{
+    width: 100vw;
+}
+
+.Card:hover{
+    cursor:grab;
+}
+
+
+.setgame{
+    padding-top: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.setgame div{
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: red;
+    font-size: 6vw;
+}
+
+.setgame div:hover{
+    background-color: #3E468E;
+    color: black;
+}
+
+.score{
+    font-size: 2vw;
+    color: white;
+
+}
+
+.victoire{
+    font-size: 6vw;
+    color: red;
+}
+
+.victoire button{
+    font-size: 5vw;
+    border-radius: 20px;
+}
+
+.turn{
+    font-size:2vw;
+    color:white
+}
+.setgame div{
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: red;
+    font-size: 6vw;
+}
+
+.setgame div:hover{
+    background-color: #3E468E;
+    color: black;
+}
+
+.score{
+    font-size: 2vw;
+    color: white;
+
+}
+
+.victoire{
+    font-size: 6vw;
+    color: red;
+}
+
+.victoire button{
+    font-size: 5vw;
+    border-radius: 20px;
+}
+
+.turn{
+    font-size:2vw;
+    color:white
+}

@@ -13,7 +13,7 @@ export default class Card extends React.Component{
 			content = <img src={images("arriere")} alt=""></img>
 		}
 		return(
-		<div onClick={() => this.props.onClick()} className={`Card ${this.props.state ? 'face-up': ''}`}>
+		<div onClick={() => this.props.cardOnClick()} className={`Card ${this.props.state ? 'face-up': ''}`}>
 			{content}
 		</div>
 		)

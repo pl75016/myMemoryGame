@@ -1,20 +1,18 @@
 import React from "react"
 
-export default class SetGame extends React.Component{
+export default class SetGame1 extends React.Component{
     render(){
         return(
             <>
-            <div className="logo">
-                Memory Game
-            </div>
+                <div className="logo">
+                    Memory Game
+                </div>
             <div className="setgame">
                 <div>
-                    Player1 Name : 
+                    Payer Name :
                     <input className="input" id="payer1"/>
                     <div className="separator"/>
-                    Player2 Name : 
-                <input className="input" id="payer2"/>
-                <div className="separator"/>
+                <div className="sesparator"/>
                 <select className="choose" id="difficulty">
                     <option value="">Please choose a difficulty</option>
                     <option value="1">level 1</option>
